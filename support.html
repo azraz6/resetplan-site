@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ResetPlan — Support</title>
+<style>
+  :root { color-scheme: light dark; --paper:#f7f3ea; --surface:#fffbf3; --ink:#1d2a25; --muted:#4f5a52; --accent:#2e5f4e; --line:#e2dccf; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#101511; --surface:#19211c; --ink:#efebe1; --muted:#a9b4ab; --accent:#9accb8; --line:#2a332e; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 22px 80px; }
+  .brand { display:flex; align-items:center; gap:12px; margin-bottom:40px; font:600 20px/1.2 "New York",Georgia,serif; color:var(--ink); text-decoration:none; }
+  .mark { width:38px; height:38px; border-radius:50%; border:5px solid var(--accent); position:relative; }
+  .mark::after { content:""; position:absolute; width:7px; height:7px; border-radius:50%; background:#c77c48; top:-4px; right:-4px; }
+  h1 { font:600 clamp(34px,6vw,52px)/1.05 "New York",Georgia,serif; letter-spacing:-.02em; margin:0 0 14px; }
+  h2 { font:600 22px/1.2 "New York",Georgia,serif; margin:38px 0 8px; }
+  p, li { color:var(--muted); }
+  a { color:var(--accent); }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:22px; margin:24px 0; }
+  ul { padding-left:20px; }
+  .small { font-size:14px; }
+  footer { margin-top:46px; padding-top:20px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>ResetPlan</a>
+  <h1>Support</h1>
+  <p>ResetPlan is a calm, flexible planner. If something isn't working, start with the answers below.</p>
+  <section class="card">
+    <h2>Why didn't all my tasks fit?</h2>
+    <p>Daily Reset respects your planning window, fixed-time tasks, task durations, deadlines, breaks and buffer. Tasks that don't fit are never deleted. They stay in your list with a reason, and you can plan them later.</p>
+    <h2>Why did a reminder not arrive?</h2>
+    <p>Check iOS Settings → Notifications → ResetPlan and the Reminder settings in the app. Quiet hours deliberately skip reminders inside that window instead of delivering them later. Task reminders require a scheduled start time.</p>
+    <h2>What happens when I remove a task from today?</h2>
+    <p>It leaves today's plan but remains in your task list. Deleting a task is a separate action and asks for confirmation. A Daily Reset can be undone from Today.</p>
+    <h2>What does Premium include?</h2>
+    <p>Unlimited routines, 26 weeks of reflection history and deeper weekly observations. Tasks, scheduling, Daily Reset, reminders, export and the free reflection view work without a subscription.</p>
+    <h2>How do I manage a subscription?</h2>
+    <p>Open Settings → ResetPlan Premium, or use App Store subscription settings. You can also use Restore Purchases there. Deleting the app does not cancel a subscription.</p>
+    <h2>How do I delete my data?</h2>
+    <p>Open Settings → Data, export & privacy → Delete all local data. This removes local tasks, routines, history, notes and preferences. It cannot cancel an App Store subscription and cannot remove copies from iOS device backups.</p>
+  </section>
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:support@resetplan.app?subject=ResetPlan%20Support">support@resetplan.app</a>. Please include your iOS version and a short description; don't send task content unless it is necessary. <strong>This address must be configured and monitored before App Store submission.</strong></p>
+  <p class="small">ResetPlan is a planning tool, not medical care. It does not diagnose ADHD or replace medical or psychological support.</p>
+  <footer>© 2026 ResetPlan · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Subscription terms</a></footer>
+</main>
+</body>
+</html>
